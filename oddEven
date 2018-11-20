@@ -1,0 +1,26 @@
+  //Detemine if integer is odd or even  
+    
+    #include <stdio.h>
+
+    void main()
+
+    {
+
+        int value, remainder;
+ 
+
+        printf("Enter an integer : ");
+
+        scanf("%d", &value);
+
+        remainder = value % 2;
+
+        if (remainder == 0)
+
+            printf("%d is an even integer\n", value);
+
+        else
+
+            printf("%d is an odd integer\n", value);
+
+    }
